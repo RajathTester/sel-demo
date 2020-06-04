@@ -1,0 +1,6 @@
+2020-06-03 15:23:04,827  INFO DataProviderDemo.java [main] DataProviderDemo:48 - inside parametrized test Cases
+2020-06-03 15:23:04,851  INFO DataProviderDemo.java [main] DataProviderDemo:48 - inside parametrized test Cases
+2020-06-03 15:23:04,859  INFO DataProviderDemo.java [main] DataProviderDemo:48 - inside parametrized test Cases
+2020-06-03 15:23:04,868  INFO DataProviderDemo.java [main] DataProviderDemo:48 - inside parametrized test Cases
+2020-06-03 15:23:04,877  INFO DataProviderDemo.java [main] DataProviderDemo:48 - inside parametrized test Cases
+2020-06-03 15:23:04,889  INFO DataProviderDemo.java [main] DataProviderDemo:56 - inside dependent method

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumTestSuite]">
+  <parameter name="applicationURL" value="http://10.82.181.26/Automation/DemoApps/PopUpBox.aspx"/>
+  <parameter name="Browser" value="ie"/>
+  <test name="TestDemo_ie(failed)">
+    <parameter name="Browser" value="ie"/>
+    <classes>
+      <class name="TestDemos.NewTest">
+        <methods>
+          <include name="alertTestCase"/>
+          <include name="Driverinit"/>
+          <include name="Driverinit"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="LoadPage"/>
+          <include name="LoadPage"/>
+        </methods>
+      </class> <!-- TestDemos.NewTest -->
+    </classes>
+  </test> <!-- TestDemo_ie(failed) -->
+</suite> <!-- Failed suite [SeleniumTestSuite] -->

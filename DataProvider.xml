@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test">
+		<parameter name="url" value="jdbc:mysql://localhost:3306/testdata" />
+		<parameter name="driverclass" value="com.mysql.jdbc.Driver" />
+		<parameter name="passkey" value="root" />
+		<parameter name="uname" value="root" />
+		<classes>
+			<class name="TestDemos.DataProviderDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

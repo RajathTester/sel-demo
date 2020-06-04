@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTestSuite">
+<parameter name="applicationURL" 
+value="http://10.82.181.26/Automation/DemoApps/PopUpBox.aspx"></parameter>
+	<test name="TestDemo_Chrome">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="TestDemos.NewTest" />
+		</classes>
+	</test> <!-- Testcases -->
+
+	<test name="TestDemo_ie">
+		<parameter name="Browser" value="ie"></parameter>
+		<classes>
+			<class name="TestDemos.NewTest" />
+		</classes>
+	</test>
+
+</suite> <!-- SeleniumTestSuite -->

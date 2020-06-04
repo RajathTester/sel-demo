@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POMSuite">
+	<parameter name="applicationURL" value="http://10.82.48.225:8081/EDUBank/" />
+	<test name="POMTest">
+		<classes>
+			<class name="TestDemos.POMTestCase" />
+		</classes>
+	</test> <!-- POMTest -->
+</suite> <!-- POMSuite -->
