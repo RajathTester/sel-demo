@@ -6,6 +6,8 @@ import org.openqa.selenium.support.How;
 
 public class LoginPageClass {
 	
+	// new comment added
+	
 	@FindBy(how=How.ID,id="userId")
 	private WebElement username;
 	@FindBy(how=How.ID,id="password")
